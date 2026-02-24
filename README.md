@@ -1,10 +1,9 @@
 # esp_lcd_st75256
 ESP32-C3 LVGL port for ST75256 monochrome LCD via I2C. Features optimized frame buffer remapping, full-screen/partial refresh support, and benchmark demos. Built with esp_lvgl_port and ESP-IDF.
-基于 ESP32-C3 和 ESP-IDF 的 ST75256 单色屏 LVGL 移植方案（I2C 接口）。包含显存重排优化、全/局部刷新支持及性能测试 Demo
 
 基于 **ESP32-C3** 和 **ESP-IDF** 框架，将 **LVGL v8** 图形库移植到 **ST75256** 单色 LCD 屏幕（I2C 接口）的开源项目。
 
-本项目解决了 ST75256 特殊的显存排列（水平 8 像素/字节）与 LVGL 默认格式（垂直 8 像素/字节）不匹配的问题，实现了流畅的图形渲染，并包含了性能基准测试（Benchmark）。
+本项目解决了 ST75256 垂直显示的显存排列（水平 8 像素/字节）与 LVGL 默认格式（垂直 8 像素/字节）不匹配的问题，实现了屏幕旋转显示，并包含了性能基准测试（Benchmark）。
 
 ## ✨ 主要特性 (Features)
 
