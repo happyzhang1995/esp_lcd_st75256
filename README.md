@@ -18,6 +18,7 @@ ESP32-C3 LVGL port for ST75256 monochrome LCD via I2C. Features optimized frame 
 ## 📸 演示效果 (Demo)
 
 | Benchmark 测试帧数：9-12FPS | 普通场景帧数：13-15FPS |
+
 使用I2C总线虽然速度不快，但比SPI少2用两个引脚，可适当调高SCL频率，C3最高800kHz。
 
 ## 🛠️ 硬件连接 (Hardware Wiring)
